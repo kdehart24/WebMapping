@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <title>Lord of the Rings Travel Map</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <!--    1.1.  Include the reference to the Mapbox JavaScript here in the <head> of the page  -->
+      
+      <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v3.2.0/mapbox-gl.js'></script>
+    <!--    1.2 Include the reference to the Mapbox CSS here in the <head> of the page  -->
+      <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v3.2.0/mapbox-gl.css' rel='stylesheet' />
+          <!--   Link to Google font-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+      <!--title font ideas: Cinzel Decorative, Cinzel, Sedan SC, Mate SC, Marcellus SC-->
+  
+    <style>
+        /* 1.4 Insert the CSS code here between the <style> tags */
+        body {margin:0; padding:0;}
+        .map iframe{position:relative; margin-left: 30px; width: 50%; height: 760px}
+        h1 {text-align: center;}
+        h2 {font-family: "cinzel-decorative-regular", serif;}
+        
+        .title {margin-left: 30px;}
+        .description{ display: inline-block; width: 40%; vertical-align: top; margin-left: 15px;}
+
+        
+        .cinzel-decorative-regular {
+          font-family: "Cinzel Decorative", serif;
+          font-weight: 400;
+          font-style: normal;
+        }
+
+        .cinzel-decorative-bold {
+          font-family: "Cinzel Decorative", serif;
+          font-weight: 700;
+          font-style: normal;
+        }
+
+        .cinzel-decorative-black {
+          font-family: "Cinzel Decorative", serif;
+          font-weight: 900;
+          font-style: normal;
+        }
+        
+        .red-hat-display-<uniquifier> {
+          font-family: "Red Hat Display", sans-serif;
+          font-optical-sizing: auto;
+          font-weight: <weight>;
+          font-style: normal;
+        }
+        
+        /* Ringbearer font */
+        @font-face {font-family: "Ringbearer Medium"; src: url('RingbearerMedium-51mgZ.ttf');}
+        
+    </style>
+  </head>
+    
+  <body>
+
+      <!-- Headings and title stuff-->
+      <h1 style="font-family: Ringbearer Medium, Cinzel Decorative, serif">Lord of the Rings filming locations<br></h1>
+      
+      <h2 class="title" style="font-family: Ringbearer Medium, Cinzel Decorative, serif">Created by: Katherine DeHart & Julia Kotvis<br><br></h2>
+      
+      <h2 class="title" style="font-family: Red Hat Display, sans-serif">Film sites corresponding to Frodo Baggins' journey.</h2>
+      <br>
+      
+      
+    <h2 class="title" style="font-family: Red Hat Display"> 1. Southwest of Matamata, NZ </h2>
+        <div class="map">
+            <!--  ADD iframe here  -->
+            <iframe src="map_slideshow_One.html" title="Map" ></iframe>
+            
+            <div class="description">
+                <h2>The Shire, where it all begins.</h2>
+                <p>A sheep farm of 1,250 acres provided a location of rolling hills with no buildings, power lines, or roads. This was deemed the perfect place for The Shire, which is home of the Hobbits and Frodo Baggins' home, Bag End.<br><br>Over nine months, the film crew, helped by the New Zealand Army, was able to construct 39 Hobbit homes in 1999.</p>
+            </div>
+        </div>
+
+
+
+    <h2 class= "title" style="font-family: Red Hat Display"> 2. Fort Dorset in Wellington, NZ</h2>
+    <div class="map">
+        <iframe src="map_slideshow_Two.html" title="Map2"></iframe>  
+        
+        <div class="description">
+            <h2>Inn of the Prancing Pony</h2>
+            <p>This inn was supposed to be where Frodo, Sam, Pippin, and Merry would meet up with Gandalf the Grey. After being hunted by the Black Riders, they try to hide out here and await Gandalf's arrival. Instead, they meet Aragorn "Strider" who helps them evade the Ringwraiths that soon find the room that the group had booked to stay in and attempt to attack them in their beds.<br><br>The set for the inn was built at Fort Dorset around the army barracks.</p>
+        </div>
+    </div>
+
+    <h2 class="title" style="font-family: Red Hat Display"> 3. Arrow River near Arrowtown, NZ</h2>
+    <div class="map">
+        <iframe src="map_slideshow_Three.html" title="Map3" ></iframe> 
+        
+        <div class="description">
+            <h2>Ford or Bruinen near Rivendell</h2>
+            <p>The Ford of Bruinen served as an important moment in Frodo's continued escape from the Ringwraiths. As he is injured, Arwen rides on a horse with him and is unable to outrun their pursuers. However, they are able to cross the river first and as the Ringwraiths hesitantly cross the water, Arwen uses her power to carry them away with a large attack by transforming the river into a horseback troop that take them out so she may get Frodo proper care. <br><br>You can hike to this area using the Miners Monument Walk along the Arrow River.</p>
+        </div>
+    </div>
+      
+    <h2 class="title" style="font-family: Red Hat Display"> 4. Southern Alps, NZ</h2>
+    <div class="map">
+        <iframe src="map_slideshow_Four.html" title="Map4" ></iframe> 
+        
+        <div class="description">
+            <h2>Redhorn Pass, The Misty Mountains</h2>
+            <p>The Fellowship of the Ring attempted to pass over the Misty Mountains via the Redhorn Pass, but were unable to do so because of a blizzard brought on by Saruman. They went back and decided to cross the Mountains through the Mines of Moria instead.<br><br>The film shots of the Misty Mountains were mostly aerial shots and you can take a helicopter tour over them.</p>
+        </div>
+    </div>
+      
+    <h2 class="title" style="font-family: Red Hat Display"> 5. Mount Ngāuruhoe, NZ</h2>
+    <div class="map">
+        <iframe src="map_slideshow_Five.html" title="Map5" ></iframe> 
+        
+        <div class="description">
+            <h2>Mount Doom, Mordor, where the ring ceases</h2>
+            <p>To finish his vital quest, Frodo arrives at Mount Doom AKA Mount Orodruin with Sam and Gollum. After much struggle and a final fight against Gollum, Frodo is able to come through with Sam's help and destroy the ring by dropping it into the magma chamber within the volcano.<br><br>Mount Ngāuruhoe is an active stratovolcano and is one of three volcanoes in Tongariro National Park.</p>
+        </div>
+    </div>
+      
+    <h2 class="title" style="font-family: Red Hat Display">References:</h2>
+    <h3 class="title" style="font-family: Red Hat Display">First Reference<br>
+              Second Reference<br></h3>
+        <script>
+            /* Insert the JavaScript within the <script> tags, within the body */
+            // 2.1 Start with the Mapbox access token
+            mapboxgl.accessToken = 'pk.eyJ1IjoiamFrb3R2aXMiLCJhIjoiY2x1bGhqeG10MGtlNTJrbWw3Znp6NXhwMyJ9.e7tPYpGGFxv1DBi3veeYog';
+
+        </script>
+  </body>
+</html>
